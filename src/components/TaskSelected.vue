@@ -82,13 +82,14 @@ watch(newTaskName, (newValue) => {
 .back-to-list {
     color: rgba(0, 0, 0, 0.2);
     margin-bottom: 56px;
+    cursor: pointer;
 }
 .back-to-list-text {
     text-decoration: underline;
     text-decoration-skip-ink: none;
 }
 .selected-task-status {
-
+    cursor: pointer;
 }
 .selected-task-name {
     margin-top: 10px;
@@ -104,5 +105,6 @@ watch(newTaskName, (newValue) => {
 }
 .selected-task-delete {
     color: #e74040;
+    cursor: pointer;
 }
 </style>
